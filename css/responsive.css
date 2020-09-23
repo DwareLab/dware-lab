@@ -44,4 +44,7 @@
     .alert-dismissible {
         padding: 1rem;
     }
+    footer {
+        padding: 60px 30px;
+    }
 }
