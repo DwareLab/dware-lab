@@ -25,6 +25,7 @@
     }
     .nav.nav-pills{
         flex-wrap: nowrap;
+        justify-content: center;
     }
     .nav-pills .nav-link {
         border-radius: 0;
