@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #0061ff;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.v-centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*bg*/
+.bg-primary{
+    background: #0061FF!important;
+}
+.bg-dark-blue{
+    background: #091d35;
+}
+
+/*btn*/
+.btn-outline-primary{
+    color: #0061FF!important;
+    border-color: #0061FF!important;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus{
+    color: #fff!important;
+    border-color: #0061FF!important;
+}
+.btn-white{
+    background: #fff;
+    color: #0061ff;
+}
+
+.form-control:focus {
+    transition: all ease-in-out .5s;
+    color: #495057;
+    background-color: #fff;
+    border-color: #0061ff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.header-caption h1{
+    font-size: 4rem!important;
+    font-weight: 600!important;
+}
+
+header{
+    padding-top: 120px;
+    overflow: hidden;
+}
+header a{
+    color: #fff;
+}
+header a:hover{
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    min-width: 100vw;
+    border: none;
+    border-top: 2px solid gainsboro;
+    padding: 4rem;
+    border-radius: 0 0 6px 6px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: .6rem .8rem;
+    clear: both;
+    font-weight: 400;
+    color: #091d35;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: all ease-in-out .2s;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover{
+    background: #f2faff;
+    color: #007bff;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item i{
+    margin-right: 24px;
+    font-size: 34px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(39 64 103);
+    padding: .8rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover{
+    color: #0061FF;
+}
+
+.nav-link.btn{
+    padding: .4rem .8rem!important;
+}
+
+section{
+    padding: 80px 0;
+}
+
+section h3{
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #031B4E;
+}
+
+.section-title p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: center;
+    color: #787d7a;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+    padding: 1rem;
+    color: #7c8fa7;
+    font-weight: 400;
+    border-left: 2px solid gainsboro;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #091d35;
+    border-left: 2px solid #007bff;
+    background-color: #fff;
+}
+
+.tab-pane h5{
+    color: rgb(50,70,112);
+    font-weight: 600;
+}
+
+.tab-pane p{
+    color: rgb(116,128,153);
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+.featureCard h5{
+    color: rgb(50,70,112);
+    font-weight: 600;
+}
+
+.featureCard p{
+    color: rgb(116,128,153);
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+#getStartedNow{
+    overflow: hidden;
+}
+
+footer{
+    padding: 60px 180px;
+}
+footer h6 {
+    font-weight: 400;
+    font-size: .95rem;
+}
+footer .nav-link {
+    display: block;
+    padding: .5rem 0;
+    color: #808a96;
+    font-size: .9rem;
+}
+footer .nav-link:hover {
+    color: #fff;
+}
+
+.alert .close{
+    float: right;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: initial;
+    color: #007bff;
+    opacity: 1;
+    text-shadow: none;
+}
