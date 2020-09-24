@@ -18,6 +18,15 @@
     url('../fonts/sailec/sailec.ttf') format('truetype');
 }
 @font-face {
+    font-family: "Sailec";
+    font-weight: 600;
+    src: url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.eot");
+    src: url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.svg#Sailec-Medium") format("svg"); }
+@font-face {
     font-family: 'Sailec';
     font-weight: bold;
     src: url('../fonts/sailec/Sailec-bold.eot');
@@ -26,6 +35,7 @@
     url('/../fonts/sailec/sailec-bold.woff') format('woff'),
     url('../fonts/sailec/sailec-bold.ttf') format('truetype');
 }
+
 
 body{
     font-family: 'Sailec', sans-serif;
@@ -51,7 +61,7 @@ a:hover{
     background: #0061FF!important;
 }
 .bg-dark-blue{
-    background: #091d35;
+    background: #010E28;
 }
 
 /*btn*/
@@ -82,8 +92,24 @@ a:hover{
     font-weight: bold;
 }
 
+.topBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.primaryNav{
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+    z-index: 9999;
+}
 header{
-    padding-top: 120px;
+    padding-top: 180px;
     overflow: hidden;
 }
 header a{
@@ -94,11 +120,11 @@ header a:hover{
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: fixed;
-    top: 64px;
+    top: 102px;
     left: 0;
     min-width: 100vw;
     border: none;
-    border-top: 2px solid gainsboro;
+    border-top: 1px solid gainsboro;
     padding: 4rem;
     border-radius: 0 0 6px 6px;
 }
@@ -133,6 +159,15 @@ header a:hover{
 .navbar-light .navbar-nav .nav-link {
     color: rgb(39 64 103);
     padding: .8rem;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.topBar .nav-link {
+    color: rgb(39 64 103);
+    padding: .3rem .8rem!important;
+    font-size: 12px!important;
+    font-weight: 600;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover{
@@ -149,7 +184,7 @@ section{
 
 section h3{
     font-size: 2.2rem;
-    font-weight: 600;
+    font-weight: bold;
     text-align: center;
     color: #031B4E;
 }
@@ -165,7 +200,7 @@ section h3{
     border-radius: 0;
     padding: 1rem;
     color: #7c8fa7;
-    font-weight: 400;
+    font-weight: 600;
     border-left: 2px solid gainsboro;
 }
 
@@ -175,26 +210,20 @@ section h3{
     background-color: #fff;
 }
 
-.tab-pane h5{
-    color: rgb(50,70,112);
-    font-weight: 600;
+.tab-pane i{
+    margin-bottom: 12px;
 }
 
-.tab-pane p{
-    color: rgb(116,128,153);
-    font-weight: 300;
-    line-height: 1.7em;
+.tab-pane h5, .featureCard h5{
+    color: #031B4E;
+    font-weight: bold;
 }
 
-.featureCard h5{
-    color: rgb(50,70,112);
-    font-weight: 600;
-}
-
-.featureCard p{
-    color: rgb(116,128,153);
-    font-weight: 300;
-    line-height: 1.7em;
+.tab-pane p, .featureCard p{
+    color: #5b6987;
+    font-weight: normal;
+    line-height: 25.6px;
+    font-size: 16px;
 }
 
 #getStartedNow{
@@ -202,7 +231,7 @@ section h3{
 }
 
 footer{
-    padding: 60px 180px;
+    padding: 100px 0;
 }
 footer h6 {
     font-weight: 400;
@@ -210,14 +239,23 @@ footer h6 {
 }
 footer .nav-link {
     display: block;
-    padding: .5rem 0;
+    padding: .2rem 0;
     color: #808a96;
     font-size: .9rem;
 }
 footer .nav-link:hover {
     color: #fff;
 }
-
+footer hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 0;
+    border-top: 1px solid rgba(86,86,86,.98);
+}
+.social-icons i{
+    font-size: 24px;
+    margin: 0 5px;
+}
 .alert .close{
     float: right;
     font-size: 1rem;
@@ -226,4 +264,43 @@ footer .nav-link:hover {
     color: #007bff;
     opacity: 1;
     text-shadow: none;
+}
+
+/*carousel*/
+.carousel-inner {
+    height: 620px;
+}
+.carousel-caption {
+    bottom: -130px;
+    color: #031B4E;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #031d4d;
+    background-clip: padding-box;
+    border-top: none;
+    border-bottom: none;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+.carousel-control-prev {
+    left: -200px;
+}
+.carousel-control-next {
+    right: -200px;
+}
+.carousel-control-prev-icon {
+    background-image: url("../img/chevron-left.png");
+}
+.carousel-control-next-icon {
+    background-image: url("../img/chevron-right.png");
 }
