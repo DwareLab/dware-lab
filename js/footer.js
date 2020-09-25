@@ -9,31 +9,37 @@ class Footer extends HTMLElement {
                 <nav class="nav flex-column">
                     <a class="nav-link active" href="#">About</a>
                     <a class="nav-link" href="#">Team</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#">Careers</a>
+                    <a class="nav-link" href="#">Referal Program</a>
                 </nav>
             </div>
             <div class="col-lg-2">
                 <h6 class="text-white mb-3">Products</h6>
                 <nav class="nav flex-column">
-                    <a class="nav-link active" href="#">About</a>
-                    <a class="nav-link" href="#">Team</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link active" href="software.hmtl">Software</a>
+                    <a class="nav-link" href="#">Graphic</a>
+                    <a class="nav-link" href="#">Markeitng</a>
+                    <a class="nav-link" href="#">Web</a>
                 </nav>
             </div>
             <div class="col-lg-2">
                 <h6 class="text-white mb-3">Community</h6>
                 <nav class="nav flex-column">
-                    <a class="nav-link active" href="#">About</a>
-                    <a class="nav-link" href="#">Team</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link active" href="#">Tutorials</a>
+                    <a class="nav-link" href="#">Meetup</a>
+                    <a class="nav-link" href="#">Q&A</a>
+                    <a class="nav-link" href="#">Write for Donations</a>
                 </nav>
             </div>
             <div class="col-lg-2">
-                <h6 class="text-white mb-3">Company</h6>
+                <h6 class="text-white mb-3">Support</h6>
                 <nav class="nav flex-column">
-                    <a class="nav-link active" href="#">About</a>
-                    <a class="nav-link" href="#">Team</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link active" href="#">Contact</a>
+                    <a class="nav-link" href="#">Sales</a>
+                    <a class="nav-link" href="terms-and-conditions.html">Terms & Conditions</a>
+                    <a class="nav-link" href="privacy-policy.html">Privacy Policy</a>
+                    <a class="nav-link" href="#">Disclaimer</a>
                 </nav>
             </div>
         </div>
@@ -41,7 +47,7 @@ class Footer extends HTMLElement {
         <div class="row">
             <div class="col-lg-6">
                 <img src="img/logo-light.svg" width="80" alt="">
-                <span class="text-white small"><sup>&copy;</sup>2020 Dware Lab INC. All rights reserved.</span>
+                <span class="text-white small"><sup>&copy;</sup> 2020 Dware Lab INC. All rights reserved.</span>
             </div>
             <div class="col-lg-6 text-lg-right social-icons">
                 <a href="#" class="text-muted">

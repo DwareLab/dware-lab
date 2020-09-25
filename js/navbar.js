@@ -39,21 +39,21 @@ class Navbar extends HTMLElement {
                         <div class="dropdown-menu shadow" aria-labelledby="productDropdown">
                             <p class="menu-sub-title">Featured Products:</p>
                             <a class="dropdown-item" href="software.html">
-                                <i class="fas fa-laptop-code text-primary"></i>
+                                <span class="icon icon-software"></span>
                                 <div class="mb-0">
                                     <span class="item-title">Softwares</span>
                                     <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                             <a class="dropdown-item" href="#">
-                                <i class="fas fa-paint-brush text-primary"></i>
+                                <span class="icon icon-graphic"></span>
                                 <div class="mb-0">
                                     <span class="item-title">Graphics</span>
                                     <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                             <a class="dropdown-item" href="#">
-                                <i class="fas fa-globe text-primary"></i>
+                                <span class="icon icon-web"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span></span>
                                 <div class="mb-0">
                                     <span class="item-title">Web</span>
                                     <span class="small d-block item-desc">Scalable Virtual Machines</span>
@@ -69,14 +69,14 @@ class Navbar extends HTMLElement {
                         <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
                             <p class="menu-sub-title">Category:</p>
                             <a class="dropdown-item" href="#">
-                                <i class="fas fa-eye text-primary"></i>
+                                <span class="icon icon-visual"></span>
                                 <div class="mb-0">
                                     <span class="item-title">Visual</span>
                                     <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                             <a class="dropdown-item" href="#">
-                                <i class="fas fa-code text-primary"></i>
+                                <span class="icon icon-backend"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></span>
                                 <div class="mb-0">
                                     <span class="item-title">Back End</span>
                                     <span class="small d-block item-desc">Scalable Virtual Machines</span>

@@ -52,4 +52,36 @@
     footer {
         padding: 60px 30px;
     }
+
+    .carousel-inner {
+        height: auto;
+    }
+    .carousel-caption {
+        bottom: 20px;
+        color: #031B4E;
+    }
+    .carousel-indicators li {
+        box-sizing: content-box;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: #031d4d;
+        background-clip: padding-box;
+        border-top: none;
+        border-bottom: none;
+        opacity: .5;
+        transition: opacity .6s ease;
+        border-radius: 50%;
+    }
+    .carousel-control-prev {
+        left: 0;
+    }
+    .carousel-control-next {
+        right: 0;
+    }
 }

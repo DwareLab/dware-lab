@@ -2,6 +2,7 @@
 @import url('./global.css');
 @import url('./navbar.css');
 @import url('./carousel.css');
+@import url('./icon.css');
 
 
 .header-caption h1{
@@ -31,7 +32,7 @@ section h3{
     color: #031B4E;
 }
 
-.section-title p{
+.section-title p.sub-desc{
     font-size: 1.2rem;
     font-weight: 200;
     text-align: center;
@@ -112,4 +113,17 @@ footer hr {
     background: #0061ff url("../img/software-bg.png") center center no-repeat;
     background-size: cover;
     padding-top: 140px;
+}
+
+.terms{
+    padding-top: 200px;
+}
+
+.terms .sub-desc{
+    font-size: 16px!important;
+}
+
+.terms .content-row p{
+    color: #495057;
+    font-weight: 300;
 }
