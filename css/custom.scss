@@ -1,0 +1,134 @@
+@import url('./fonts.css');
+@import url('./global.css');
+@import url('./navbar.css');
+@import url('./carousel.css');
+@import url('./icon.css');
+
+
+.header-caption h1{
+  font-size: 4rem!important;
+  font-weight: bold;
+}
+
+header{
+  background: #0061ff url("../img/software-bg.png") center center no-repeat;
+  background-size: cover;
+  padding-top: 12%;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+header a{
+  color: #fff;
+}
+header a:hover{
+  color: #fff;
+}
+
+section{
+  padding: 100px 0;
+}
+
+section h3{
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #031B4E;
+}
+
+.section-title p.sub-desc{
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-align: center;
+  color: #787d7a;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+  padding: 1rem;
+  color: #7c8fa7;
+  font-weight: 600;
+  border-left: 2px solid gainsboro;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #091d35;
+  border-left: 2px solid #007bff;
+  background-color: #fff;
+}
+
+.tab-pane img, .tab-pane i{
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.tab-pane h5, .featureCard h5{
+  color: #031B4E;
+  font-weight: bold;
+}
+
+.tab-pane p, .featureCard p{
+  color: #5b6987;
+  font-weight: normal;
+  line-height: 25.6px;
+  font-size: 16px;
+}
+
+#getStartedNow{
+  overflow: hidden;
+}
+
+footer{
+  padding: 100px 0;
+}
+footer h6 {
+  font-weight: 400;
+  font-size: .95rem;
+}
+footer .nav-link {
+  display: block;
+  padding: .2rem 0;
+  color: #808a96;
+  font-size: .9rem;
+}
+footer .nav-link:hover {
+  color: #fff;
+}
+footer hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 0;
+  border-top: 1px solid rgba(86,86,86,.98);
+}
+.social-icons i{
+  font-size: 24px;
+  margin: 0 5px;
+}
+.alert .close{
+  float: right;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: initial;
+  color: #007bff;
+  opacity: 1;
+  text-shadow: none;
+}
+
+.softwareHeader{
+  background: #0061ff url("../img/software-bg.png") center center no-repeat;
+  background-size: cover;
+  padding-top: 12%;
+  padding-bottom: 80px;
+}
+
+.terms{
+  padding-top: 200px;
+}
+
+.terms .sub-desc{
+  font-size: 16px!important;
+}
+
+.terms .content-row p{
+  color: #495057;
+  font-weight: 300;
+}
