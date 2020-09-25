@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@font-face {
+    font-family: 'Sailec';
+    font-weight: 300;
+    src: url('../fonts/sailec/Sailec-light.eot');
+    src: url('//cdn.quilljs.com/fonts/sailec-light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sailec/Sailec-light.woff') format('woff'),
+    url('../fonts/sailec/Sailec-light.woff2') format('woff2'),
+    url('../fonts/sailec/Sailec-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec';
+    font-weight: normal;
+    src: url('../fonts/sailec/Sailec.eot');
+    src: url('../fonts/sailec/sailec.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sailec/sailec.woff2') format('woff2'),
+    url('/../fonts/sailec/sailec.woff') format('woff'),
+    url('../fonts/sailec/sailec.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Sailec";
+    font-weight: 600;
+    src: url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.eot");
+    src: url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.svg#Sailec-Medium") format("svg"); }
+@font-face {
+    font-family: 'Sailec';
+    font-weight: bold;
+    src: url('../fonts/sailec/Sailec-bold.eot');
+    src: url('../fonts/sailec/sailec-bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sailec/sailec-bold.woff2') format('woff2'),
+    url('/../fonts/sailec/sailec-bold.woff') format('woff'),
+    url('../fonts/sailec/sailec-bold.ttf') format('truetype');
+}

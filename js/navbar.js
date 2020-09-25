@@ -34,27 +34,29 @@ class Navbar extends HTMLElement {
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Products
+                            <i class="fas fa-angle-down"></i>
                         </a>
                         <div class="dropdown-menu shadow" aria-labelledby="productDropdown">
+                            <p class="menu-sub-title">Featured Products:</p>
                             <a class="dropdown-item" href="software.html">
                                 <i class="fas fa-laptop-code text-primary"></i>
                                 <div class="mb-0">
-                                    <span>Softwares</span>
-                                    <span class="small d-block text-muted">Scalable Virtual Machines</span>
+                                    <span class="item-title">Softwares</span>
+                                    <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                             <a class="dropdown-item" href="#">
                                 <i class="fas fa-paint-brush text-primary"></i>
                                 <div class="mb-0">
-                                    <span>Graphics</span>
-                                    <span class="small d-block text-muted">Scalable Virtual Machines</span>
+                                    <span class="item-title">Graphics</span>
+                                    <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                             <a class="dropdown-item" href="#">
                                 <i class="fas fa-globe text-primary"></i>
                                 <div class="mb-0">
-                                    <span>Web</span>
-                                    <span class="small d-block text-muted">Scalable Virtual Machines</span>
+                                    <span class="item-title">Web</span>
+                                    <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                         </div>
@@ -62,21 +64,22 @@ class Navbar extends HTMLElement {
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="hireDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Hire
+                            <i class="fas fa-angle-down"></i>
                         </a>
                         <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
-                            <p>Category:</p>
+                            <p class="menu-sub-title">Category:</p>
                             <a class="dropdown-item" href="#">
                                 <i class="fas fa-eye text-primary"></i>
                                 <div class="mb-0">
-                                    <span>Visual</span>
-                                    <span class="small d-block text-muted">Scalable Virtual Machines</span>
+                                    <span class="item-title">Visual</span>
+                                    <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                             <a class="dropdown-item" href="#">
                                 <i class="fas fa-code text-primary"></i>
                                 <div class="mb-0">
-                                    <span>Back End</span>
-                                    <span class="small d-block text-muted">Scalable Virtual Machines</span>
+                                    <span class="item-title">Back End</span>
+                                    <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                         </div>

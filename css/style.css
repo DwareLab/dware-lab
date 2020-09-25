@@ -1,113 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-@font-face {
-    font-family: 'Sailec';
-    font-weight: 300;
-    src: url('../fonts/sailec/Sailec-light.eot');
-    src: url('//cdn.quilljs.com/fonts/sailec-light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/sailec/Sailec-light.woff') format('woff'),
-    url('../fonts/sailec/Sailec-light.woff2') format('woff2'),
-    url('../fonts/sailec/Sailec-light.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Sailec';
-    font-weight: normal;
-    src: url('../fonts/sailec/Sailec.eot');
-    src: url('../fonts/sailec/sailec.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/sailec/sailec.woff2') format('woff2'),
-    url('/../fonts/sailec/sailec.woff') format('woff'),
-    url('../fonts/sailec/sailec.ttf') format('truetype');
-}
-@font-face {
-    font-family: "Sailec";
-    font-weight: 600;
-    src: url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.eot");
-    src: url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.svg#Sailec-Medium") format("svg"); }
-@font-face {
-    font-family: 'Sailec';
-    font-weight: bold;
-    src: url('../fonts/sailec/Sailec-bold.eot');
-    src: url('../fonts/sailec/sailec-bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/sailec/sailec-bold.woff2') format('woff2'),
-    url('/../fonts/sailec/sailec-bold.woff') format('woff'),
-    url('../fonts/sailec/sailec-bold.ttf') format('truetype');
-}
+@import url('./fonts.css');
+@import url('./global.css');
+@import url('./navbar.css');
+@import url('./carousel.css');
 
-
-body{
-    font-family: 'Sailec', sans-serif;
-}
-
-a {
-    color: #0061ff;
-    text-decoration: none;
-    background-color: transparent;
-}
-a:hover{
-    text-decoration: none;
-}
-
-.v-centered{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/*bg*/
-.bg-primary{
-    background: #0061FF!important;
-}
-.bg-dark-blue{
-    background: #010E28;
-}
-
-/*btn*/
-.btn-outline-primary{
-    color: #0061FF!important;
-    border-color: #0061FF!important;
-}
-.btn-outline-primary:hover, .btn-outline-primary:focus{
-    color: #fff!important;
-    border-color: #0061FF!important;
-}
-.btn-white{
-    background: #fff;
-    color: #0061ff;
-}
-
-.form-control:focus {
-    transition: all ease-in-out .5s;
-    color: #495057;
-    background-color: #fff;
-    border-color: #0061ff;
-    outline: 0;
-    box-shadow: none;
-}
 
 .header-caption h1{
     font-size: 4rem!important;
     font-weight: bold;
 }
 
-.topBar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-}
-
-.primaryNav{
-    position: fixed;
-    top: 40px;
-    left: 0;
-    width: 100%;
-    border-top: 1px solid gainsboro;
-    z-index: 9999;
-}
 header{
     padding-top: 140px;
     overflow: hidden;
@@ -117,65 +18,6 @@ header a{
 }
 header a:hover{
     color: #fff;
-}
-.navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: fixed;
-    top: 102px;
-    left: 0;
-    min-width: 100vw;
-    border: none;
-    border-top: 1px solid gainsboro;
-    padding: 4rem;
-    border-radius: 0 0 6px 6px;
-}
-
-.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    padding: .6rem .8rem;
-    clear: both;
-    font-weight: 400;
-    color: #091d35;
-    text-align: inherit;
-    white-space: nowrap;
-    background-color: transparent;
-    border: 0;
-    font-size: 20px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    transition: all ease-in-out .2s;
-}
-
-.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover{
-    background: #f2faff;
-    color: #007bff;
-}
-.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item i{
-    margin-right: 24px;
-    font-size: 34px;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: rgb(39 64 103);
-    padding: .8rem;
-    font-weight: 600;
-    font-size: 14px;
-}
-
-.topBar .nav-link {
-    color: rgb(39 64 103);
-    padding: .3rem .8rem!important;
-    font-size: 12px!important;
-    font-weight: 600;
-}
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover{
-    color: #0061FF;
-}
-
-.nav-link.btn{
-    padding: .4rem .8rem!important;
 }
 
 section{
@@ -264,45 +106,6 @@ footer hr {
     color: #007bff;
     opacity: 1;
     text-shadow: none;
-}
-
-/*carousel*/
-.carousel-inner {
-    height: 620px;
-}
-.carousel-caption {
-    bottom: -130px;
-    color: #031B4E;
-}
-.carousel-indicators li {
-    box-sizing: content-box;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #031d4d;
-    background-clip: padding-box;
-    border-top: none;
-    border-bottom: none;
-    opacity: .5;
-    transition: opacity .6s ease;
-    border-radius: 50%;
-}
-.carousel-control-prev {
-    left: -200px;
-}
-.carousel-control-next {
-    right: -200px;
-}
-.carousel-control-prev-icon {
-    background-image: url("../img/chevron-left.png");
-}
-.carousel-control-next-icon {
-    background-image: url("../img/chevron-right.png");
 }
 
 .softwareHeader{
