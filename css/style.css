@@ -22,7 +22,7 @@ header a:hover{
 }
 
 section{
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 section h3{
@@ -53,8 +53,9 @@ section h3{
     background-color: #fff;
 }
 
-.tab-pane i{
-    margin-bottom: 12px;
+.tab-pane img, .tab-pane i{
+    margin-bottom: 20px;
+    font-size: 40px;
 }
 
 .tab-pane h5, .featureCard h5{
