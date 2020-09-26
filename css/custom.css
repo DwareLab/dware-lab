@@ -1,15 +1,92 @@
 @import url("./fonts.css");
-@import url("./global.css");
 @import url("./navbar.css");
 @import url("./carousel.css");
 @import url("./icon.css");
+body {
+  font-family: "Sailec", "Helvetica", "sans-serif" !important;
+}
+
+a {
+  color: #1D58BF;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.v-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-primary {
+  color: #1D58BF !important;
+}
+
+/*bg*/
+.bg-primary {
+  background: #1D58BF !important;
+}
+
+.bg-dark-blue {
+  background: #010E28;
+}
+
+/*btn*/
+.btn-primary {
+  color: #fff !important;
+  background: #1D58BF !important;
+  border-color: #1D58BF !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  color: #fff !important;
+  background: #1D58BF !important;
+  border-color: #1D58BF !important;
+}
+
+.btn-outline-primary {
+  color: #1D58BF !important;
+  border-color: #1D58BF !important;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+  color: #fff !important;
+  border-color: #1D58BF !important;
+}
+
+.btn-white {
+  background: #fff;
+  color: #1D58BF;
+}
+
+.form-control:focus {
+  transition: all ease-in-out 0.5s;
+  color: #495057;
+  background-color: #fff;
+  border-color: #1D58BF;
+  outline: 0;
+  box-shadow: none;
+}
+
+.pt-140 {
+  padding-top: 140px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
 .header-caption h1 {
   font-size: 4rem !important;
   font-weight: bold;
 }
 
 header {
-  background: #0061ff url("../img/software-bg.png") center center no-repeat;
+  background: #1D58BF url("../img/software-bg.png") center center no-repeat;
   background-size: cover;
   padding-top: 12%;
   padding-bottom: 80px;
@@ -120,7 +197,7 @@ footer hr {
 }
 
 .softwareHeader {
-  background: #0061ff url("../img/software-bg.png") center center no-repeat;
+  background: #1D58BF url("../img/software-bg.png") center center no-repeat;
   background-size: cover;
   padding-top: 12%;
   padding-bottom: 80px;
@@ -137,6 +214,51 @@ footer hr {
 .terms .content-row p {
   color: #495057;
   font-weight: 300;
+}
+
+.counter {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e5e8ed;
+  border-radius: 5px;
+  padding: 24px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  margin-bottom: 0px !important;
+  box-shadow: rgba(3, 27, 78, 0.06) 0px 2px 4px !important;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(3, 27, 78, 0.1) 0px 10px 20px !important;
+  background-color: white !important;
+}
+
+.counter img {
+  width: 60px;
+  margin: 0 auto;
+}
+
+.employees, .customer, .design, .order {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.counter-count {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #2f2f2f;
+  text-align: center;
+  display: block;
+  margin-bottom: 0;
+}
+
+.employee-p, .customer-p, .order-p, .design-p {
+  font-size: 18px;
+  color: #5b6987;
 }
 
 /*# sourceMappingURL=custom.css.map */

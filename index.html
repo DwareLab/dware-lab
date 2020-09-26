@@ -16,6 +16,7 @@
     <title>DWARE LAB</title>
 
     <script src="js/navbar.js"></script>
+    <script src="js/notification.js"></script>
     <script src="js/getStarted.js"></script>
     <script src="js/footer.js"></script>
 
@@ -32,6 +33,7 @@
         <div class="particle particle-4"></div>
     </div>
     <div class="container">
+        <main-notify></main-notify>
         <div class="row">
             <div class="col-lg-6 v-centered">
                 <div class="header-caption">
@@ -41,7 +43,7 @@
                 </div>
             </div>
             <div class="col-lg-4 offset-lg-2">
-                <div class="card shadow">
+                <div class="card shadow p-0">
                     <div class="card-header border-bottom-0 bg-light text-center py-4">
                         <h5 class="mb-0">Get a Custom Quote</h5>
                     </div>
@@ -78,7 +80,7 @@
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
                     <h3 class="mb-4">
-                        Deploy and scale seamlessly
+                        <span class="text-primary">Deploy and scale</span> seamlessly
                     </h3>
                     <p class="sub-desc">
                         Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted
@@ -105,120 +107,168 @@
                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                         <div class="row">
                             <div class="col-lg-6">
-                                <img src="./img/web.svg" width="80" alt="Web Development">
-                                <h5>Web Development</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <img src="./img/web.svg" width="80" alt="Web Development">
+                                    <h5>Web Development</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                             <div class="col-lg-6">
-                                <img src="./img/software.svg" width="80" alt="Software">
-                                <h5>Software Development</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <img src="./img/software.svg" width="80" alt="Software">
+                                    <h5>Software Development</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                         </div>
                         <div class="row mt-4">
                             <div class="col-lg-6">
-                                <img src="./img/graphic.svg" width="80" alt="Graphic">
-                                <h5>Graphic Design</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                               <div class="card">
+                                   <img src="./img/graphic.svg" width="80" alt="Graphic">
+                                   <h5>Graphic Design</h5>
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                       reiciendis tenetur vel veritatis.</p>
+                                   <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                               </div>
                             </div>
                             <div class="col-lg-6">
-                                <img src="./img/visual.svg" width="80" alt="Visual Design">
-                                <h5>Visual Design</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <img src="./img/visual.svg" width="80" alt="Visual Design">
+                                    <h5>Visual Design</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                         <div class="row">
                             <div class="col-lg-6">
-                                <img src="./img/backend.svg" width="80" alt="Back End Development">
-                                <h5>Back End Developing</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <img src="./img/backend.svg" width="80" alt="Back End Development">
+                                    <h5>Back End Developing</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                             <div class="col-lg-6">
-                                <img src="./img/web.svg" width="80" alt="Web Development">
-                                <h5>Web Development</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <img src="./img/web.svg" width="80" alt="Web Development">
+                                    <h5>Web Development</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                         </div>
                         <div class="row mt-4">
                             <div class="col-lg-6">
-                                <i class="fas fa-code fa-2x text-primary  "></i>
-                                <h5>Headline 3</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <i class="fas fa-code fa-2x text-primary  "></i>
+                                    <h5>Headline 3</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                             <div class="col-lg-6">
-                                <i class="fas fa-database text-primary"></i>
-                                <h5>Headline 4</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <i class="fas fa-database text-primary"></i>
+                                    <h5>Headline 4</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                         <div class="row">
                             <div class="col-lg-6">
-                                <i class="fas fa-tag text-primary"></i>
-                                <h5>Headline 1</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <i class="fas fa-database text-primary"></i>
+                                    <h5>Headline 4</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                             <div class="col-lg-6">
-                                <i class="fas fa-users text-primary"></i>
-                                <h5>Headline 2</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <i class="fas fa-database text-primary"></i>
+                                    <h5>Headline 4</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                         </div>
                         <div class="row mt-4">
                             <div class="col-lg-6">
-                                <i class="fas fa-play text-primary"></i>
-                                <h5>Headline 3</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <i class="fas fa-database text-primary"></i>
+                                    <h5>Headline 4</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                             <div class="col-lg-6">
-                                <i class="fas fa-accessible-icon text-primary"></i>
-                                <h5>Headline 4</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <i class="fas fa-database text-primary"></i>
+                                    <h5>Headline 4</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                         <div class="row">
                             <div class="col-lg-6">
-                                <i class="fas fa-acquisitions-incorporated text-primary"></i>
-                                <h5>Headline 1</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <i class="fas fa-database text-primary"></i>
+                                    <h5>Headline 4</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                             <div class="col-lg-6">
-                                <i class="fas fa-android text-primary"></i>
-                                <h5>Headline 2</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <i class="fas fa-database text-primary"></i>
+                                    <h5>Headline 4</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                         </div>
                         <div class="row mt-4">
                             <div class="col-lg-6">
-                                <i class="fas fa-apple text-primary"></i>
-                                <h5>Headline 3</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <i class="fas fa-database text-primary"></i>
+                                    <h5>Headline 4</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                             <div class="col-lg-6">
-                                <i class="fas fa-microsoft text-primary"></i>
-                                <h5>Headline 4</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
-                                    reiciendis tenetur vel veritatis.</p>
+                                <div class="card">
+                                    <i class="fas fa-database text-primary"></i>
+                                    <h5>Headline 4</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia
+                                        reiciendis tenetur vel veritatis.</p>
+                                    <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -233,7 +283,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <h3>
-                    Built for Marketing
+                    Built for <span class="text-primary">Marketing</span>
                 </h3>
             </div>
         </div>
@@ -287,7 +337,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <h3 class="mb-4">
-                    Built for business
+                    Built for <span class="text-primary">business</span>
                 </h3>
             </div>
         </div>
