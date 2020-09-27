@@ -7,7 +7,7 @@ class Footer extends HTMLElement {
             <div class="col-lg-2">
                 <h6 class="text-white mb-3">Company</h6>
                 <nav class="nav flex-column">
-                    <a class="nav-link active" href="#">About</a>
+                    <a class="nav-link active" href="about.html">About</a>
                     <a class="nav-link" href="#">Team</a>
                     <a class="nav-link" href="#">Blog</a>
                     <a class="nav-link" href="#">Careers</a>
@@ -17,10 +17,10 @@ class Footer extends HTMLElement {
             <div class="col-lg-2">
                 <h6 class="text-white mb-3">Products</h6>
                 <nav class="nav flex-column">
-                    <a class="nav-link active" href="software.hmtl">Software</a>
+                    <a class="nav-link active" href="software.html">Software</a>
                     <a class="nav-link" href="#">Graphic</a>
                     <a class="nav-link" href="#">Markeitng</a>
-                    <a class="nav-link" href="#">Web</a>
+                    <a class="nav-link" href="#">Web Development</a>
                 </nav>
             </div>
             <div class="col-lg-2">
@@ -39,7 +39,6 @@ class Footer extends HTMLElement {
                     <a class="nav-link" href="#">Sales</a>
                     <a class="nav-link" href="terms-and-conditions.html">Terms & Conditions</a>
                     <a class="nav-link" href="privacy-policy.html">Privacy Policy</a>
-                    <a class="nav-link" href="#">Disclaimer</a>
                 </nav>
             </div>
         </div>
