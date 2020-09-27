@@ -17,6 +17,10 @@
         overflow: hidden;
         text-align: center;
     }
+    .softwareHeader {
+        background: #ffffff;
+        padding-top: 32%;
+    }
     .header-caption h1 {
         font-size: 3rem!important;
         font-weight: 600!important;
@@ -51,6 +55,11 @@
     }
     footer {
         padding: 60px 30px;
+        text-align: center;
+    }
+    footer span{
+        display: block;
+        margin: 20px 0;
     }
 
     .carousel-inner {

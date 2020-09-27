@@ -208,7 +208,6 @@ footer hr {
 .softwareHeader{
   background: #ffffff;
   padding-top: 12%;
-  padding-bottom: 80px;
 }
 
 .terms{
@@ -232,14 +231,19 @@ footer hr {
 .card{
   background: rgb(255, 255, 255);
   border: 1px solid rgb(229, 232, 237);
-  border-radius: 5px;
+  border-radius: 6px;
   padding: 24px;
   cursor: pointer;
   transition: all 0.5s ease 0s;
   margin-bottom: 0px !important;
   box-shadow: rgba(3, 27, 78, 0.06) 0px 2px 4px !important;
+  overflow: hidden;
 }
 .card:hover{
+  box-shadow: rgba(3, 27, 78, 0.1) 0px 10px 20px !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+.card.hover-card:hover{
   transform: scale(1.01);
   box-shadow: rgba(3, 27, 78, 0.1) 0px 10px 20px !important;
   background-color: rgb(255, 255, 255) !important;
