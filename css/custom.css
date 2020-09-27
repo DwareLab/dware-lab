@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #1D58BF;
+  color: #fd5444;
   text-decoration: none;
   background-color: transparent;
 }
@@ -23,51 +23,51 @@ a:hover {
 }
 
 .text-primary {
-  color: #1D58BF !important;
+  color: #fd5444 !important;
 }
 
 /*bg*/
 .bg-primary {
-  background: #1D58BF !important;
+  background: #fd5444 !important;
 }
 
-.bg-dark-blue {
-  background: #010E28;
+.bg-matte-black {
+  background: #121212;
 }
 
 /*btn*/
 .btn-primary {
   color: #fff !important;
-  background: #1D58BF !important;
-  border-color: #1D58BF !important;
+  background: #fd5444 !important;
+  border-color: #fd5444 !important;
 }
 
 .btn-primary:hover, .btn-primary:focus {
   color: #fff !important;
-  background: #1D58BF !important;
-  border-color: #1D58BF !important;
+  background: #fd5444 !important;
+  border-color: #fd5444 !important;
 }
 
 .btn-outline-primary {
-  color: #1D58BF !important;
-  border-color: #1D58BF !important;
+  color: #fd5444 !important;
+  border-color: #fd5444 !important;
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:focus {
   color: #fff !important;
-  border-color: #1D58BF !important;
+  border-color: #fd5444 !important;
 }
 
 .btn-white {
   background: #fff;
-  color: #1D58BF;
+  color: #fd5444;
 }
 
 .form-control:focus {
   transition: all ease-in-out 0.5s;
   color: #495057;
   background-color: #fff;
-  border-color: #1D58BF;
+  border-color: #fd5444;
   outline: 0;
   box-shadow: none;
 }
@@ -81,24 +81,24 @@ a:hover {
 }
 
 .header-caption h1 {
-  font-size: 4rem !important;
+  font-size: 3.8rem !important;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 header {
-  background: #1D58BF url("../img/software-bg.png") center center no-repeat;
-  background-size: cover;
+  background: #ffffff;
   padding-top: 12%;
   padding-bottom: 80px;
   overflow: hidden;
 }
 
 header a {
-  color: #fff;
+  color: #fd5444;
 }
 
 header a:hover {
-  color: #fff;
+  color: #fd5444;
 }
 
 section {
@@ -109,7 +109,7 @@ section h3 {
   font-size: 2.2rem;
   font-weight: bold;
   text-align: center;
-  color: #031B4E;
+  color: #121212;
 }
 
 .section-title p.sub-desc {
@@ -122,29 +122,29 @@ section h3 {
 .nav-pills .nav-link {
   border-radius: 0;
   padding: 1rem;
-  color: #7c8fa7;
+  color: #a2a8a5;
   font-weight: 600;
   border-left: 2px solid gainsboro;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #091d35;
-  border-left: 2px solid #007bff;
+  color: #161616;
+  border-left: 2px solid #fd5444;
   background-color: #fff;
 }
 
-.tab-pane img, .tab-pane i {
+.tab-pane span {
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 80px !important;
 }
 
 .tab-pane h5, .featureCard h5 {
-  color: #031B4E;
+  color: #161616;
   font-weight: bold;
 }
 
 .tab-pane p, .featureCard p {
-  color: #5b6987;
+  color: #727475;
   font-weight: normal;
   line-height: 25.6px;
   font-size: 16px;
@@ -191,14 +191,13 @@ footer hr {
   font-size: 1rem;
   font-weight: 400;
   line-height: initial;
-  color: #007bff;
+  color: #fd5444;
   opacity: 1;
   text-shadow: none;
 }
 
 .softwareHeader {
-  background: #1D58BF url("../img/software-bg.png") center center no-repeat;
-  background-size: cover;
+  background: #fd5444;
   padding-top: 12%;
   padding-bottom: 80px;
 }
@@ -258,7 +257,7 @@ footer hr {
 
 .employee-p, .customer-p, .order-p, .design-p {
   font-size: 18px;
-  color: #5b6987;
+  color: #787d7a;
 }
 
 /*# sourceMappingURL=custom.css.map */

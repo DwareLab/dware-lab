@@ -2,7 +2,7 @@ class Navbar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
       <div class="navbar navbar-expand-lg topBar d-none d-lg-flex navbar-light bg-white">
-            <span class="badge badge-warning">New</span>
+            <span class="badge badge-warning">Alert!</span>
             <a class="nav-link" href="careers.html">We Are Hiring</a>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -19,7 +19,7 @@ class Navbar extends HTMLElement {
         
         <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-lg-5 primaryNav">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo.svg" width="120" alt="Dware Logo">
+                <h4 class="mb-0 text-primary font-weight-bold">DWARE LAB</h4>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -39,18 +39,21 @@ class Navbar extends HTMLElement {
                                 <span class="icon icon-software"></span>
                                 <div class="mb-0">
                                     <span class="item-title">Softwares</span>
+                                    <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                             <a class="dropdown-item" href="#">
                                 <span class="icon icon-graphic"></span>
                                 <div class="mb-0">
                                     <span class="item-title">Graphics</span>
+                                    <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                             <a class="dropdown-item" href="#">
                                 <span class="icon icon-web"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span></span>
                                 <div class="mb-0">
                                     <span class="item-title">Html Templates</span>
+                                    <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                         </div>

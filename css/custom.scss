@@ -3,7 +3,7 @@
 @import url('./carousel.css');
 @import url('./icon.css');
 
-$primary : #1D58BF;
+$primary : #fd5444;
 
 body{
   font-family: 'Sailec','Helvetica','sans-serif' !important;
@@ -33,8 +33,8 @@ a:hover{
 .bg-primary{
   background: $primary!important;
 }
-.bg-dark-blue{
-  background: #010E28;
+.bg-matte-black{
+  background: #121212;
 }
 
 /*btn*/
@@ -79,22 +79,22 @@ a:hover{
 }
 
 .header-caption h1{
-  font-size: 4rem!important;
+  font-size: 3.8rem!important;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 header{
-  background: $primary url("../img/software-bg.png") center center no-repeat;
-  background-size: cover;
+  background: #ffffff;
   padding-top: 12%;
   padding-bottom: 80px;
   overflow: hidden;
 }
 header a{
-  color: #fff;
+  color: $primary;
 }
 header a:hover{
-  color: #fff;
+  color: $primary;
 }
 
 section{
@@ -105,7 +105,7 @@ section h3{
   font-size: 2.2rem;
   font-weight: bold;
   text-align: center;
-  color: #031B4E;
+  color: #121212;
 }
 
 .section-title p.sub-desc{
@@ -118,29 +118,29 @@ section h3{
 .nav-pills .nav-link {
   border-radius: 0;
   padding: 1rem;
-  color: #7c8fa7;
+  color: #a2a8a5;
   font-weight: 600;
   border-left: 2px solid gainsboro;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  color: #091d35;
-  border-left: 2px solid #007bff;
+  color: #161616;
+  border-left: 2px solid $primary;
   background-color: #fff;
 }
 
-.tab-pane img, .tab-pane i{
+.tab-pane span{
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 80px!important;
 }
 
 .tab-pane h5, .featureCard h5{
-  color: #031B4E;
+  color: #161616;
   font-weight: bold;
 }
 
 .tab-pane p, .featureCard p{
-  color: #5b6987;
+  color: #727475;
   font-weight: normal;
   line-height: 25.6px;
   font-size: 16px;
@@ -181,14 +181,13 @@ footer hr {
   font-size: 1rem;
   font-weight: 400;
   line-height: initial;
-  color: #007bff;
+  color: $primary;
   opacity: 1;
   text-shadow: none;
 }
 
 .softwareHeader{
-  background: $primary url("../img/software-bg.png") center center no-repeat;
-  background-size: cover;
+  background: $primary ;
   padding-top: 12%;
   padding-bottom: 80px;
 }
@@ -248,5 +247,5 @@ footer hr {
 .employee-p,.customer-p,.order-p,.design-p
 {
   font-size: 18px;
-  color: #5b6987;
+  color: #787d7a;
 }
