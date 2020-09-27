@@ -4,7 +4,7 @@ class Div extends HTMLElement {
       <div class="row mb-4">
             <div class="col-lg-12">
                 <a href="#" class="btn btn-dark w-100 rounded">
-                    <p class="mb-0"><strong>Free credit active</strong>: Get started on DigitalOcean with a $100, 60-day credit for new users.</p>
+                    <p class="mb-0"><strong>Happy</strong> Web Developers Day</p>
                 </a>
             </div>
         </div>

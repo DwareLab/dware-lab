@@ -3,16 +3,13 @@ class Navbar extends HTMLElement {
         this.innerHTML = `
       <div class="navbar navbar-expand-lg topBar d-none d-lg-flex navbar-light bg-white">
             <span class="badge badge-warning">New</span>
-            <a class="nav-link" href="#">Scale your business, not costs by running your apps on Dware Lab</a>
+            <a class="nav-link" href="careers.html">We Are Hiring</a>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Docs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Get Support</a>
+                    <a class="nav-link" href="#">Support</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Sales</a>
@@ -42,21 +39,18 @@ class Navbar extends HTMLElement {
                                 <span class="icon icon-software"></span>
                                 <div class="mb-0">
                                     <span class="item-title">Softwares</span>
-                                    <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                             <a class="dropdown-item" href="#">
                                 <span class="icon icon-graphic"></span>
                                 <div class="mb-0">
                                     <span class="item-title">Graphics</span>
-                                    <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
                             <a class="dropdown-item" href="#">
                                 <span class="icon icon-web"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span></span>
                                 <div class="mb-0">
-                                    <span class="item-title">Web</span>
-                                    <span class="small d-block item-desc">Scalable Virtual Machines</span>
+                                    <span class="item-title">Html Templates</span>
                                 </div>
                             </a>
                         </div>
