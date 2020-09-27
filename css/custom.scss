@@ -6,7 +6,7 @@
 $primary : #1D58BF;
 
 body{
-  font-family: 'Sailec','Helvetica','sans-serif' !important;
+  font-family: 'Open Sans','Helvetica','sans-serif';
 }
 
 a {
@@ -60,6 +60,24 @@ a:hover{
   background: #fff;
   color: $primary;
 }
+.btn-header{
+  padding: 15px 40px 17px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 6px;
+  background: $primary;
+  border-color: $primary!important;
+  transition: all ease-in-out .2s;
+}
+.btn-header:hover{
+  opacity: .9;
+  color: #ffffff;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 800;
+}
 
 .form-control:focus {
   transition: all ease-in-out .5s;
@@ -78,23 +96,20 @@ a:hover{
   padding-bottom: 80px;
 }
 
-.header-caption h1{
-  font-size: 4rem!important;
-  font-weight: bold;
-}
-
 header{
-  background: $primary url("../img/software-bg.png") center center no-repeat;
-  background-size: cover;
+  background: #ffffff;
   padding-top: 12%;
-  padding-bottom: 80px;
   overflow: hidden;
 }
-header a{
-  color: #fff;
+.header-caption h1{
+  font-size: 37pt;
+  color: #0D293B;
+  margin-bottom: 0;
 }
-header a:hover{
-  color: #fff;
+.header-caption .sub-head{
+  font-size: 20px;
+  font-weight: 600;
+  color: $primary;
 }
 
 section{
@@ -187,8 +202,7 @@ footer hr {
 }
 
 .softwareHeader{
-  background: $primary url("../img/software-bg.png") center center no-repeat;
-  background-size: cover;
+  background: #ffffff;
   padding-top: 12%;
   padding-bottom: 80px;
 }

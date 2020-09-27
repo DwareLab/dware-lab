@@ -1,7 +1,7 @@
 class Navbar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-      <div class="navbar navbar-expand-lg topBar d-none d-lg-flex navbar-light bg-white">
+      <div class="navbar navbar-expand-lg topBar px-lg-5 d-none d-lg-flex navbar-light bg-white">
             <span class="badge badge-warning">New</span>
             <a class="nav-link" href="careers.html">We Are Hiring</a>
             <ul class="navbar-nav ml-auto">
@@ -17,7 +17,7 @@ class Navbar extends HTMLElement {
             </ul>
         </div>
         
-        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-lg-5 primaryNav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-5 shadow-sm primaryNav">
             <a class="navbar-brand" href="index.html">
                 <img src="img/logo.svg" width="120" alt="Dware Logo">
             </a>

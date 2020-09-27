@@ -3,7 +3,7 @@
 @import url("./carousel.css");
 @import url("./icon.css");
 body {
-  font-family: "Sailec", "Helvetica", "sans-serif" !important;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
 }
 
 a {
@@ -63,6 +63,26 @@ a:hover {
   color: #1D58BF;
 }
 
+.btn-header {
+  padding: 15px 40px 17px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 6px;
+  background: #1D58BF;
+  border-color: #1D58BF !important;
+  transition: all ease-in-out 0.2s;
+}
+
+.btn-header:hover {
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 800;
+}
+
 .form-control:focus {
   transition: all ease-in-out 0.5s;
   color: #495057;
@@ -80,25 +100,22 @@ a:hover {
   padding-bottom: 80px;
 }
 
-.header-caption h1 {
-  font-size: 4rem !important;
-  font-weight: bold;
-}
-
 header {
-  background: #1D58BF url("../img/software-bg.png") center center no-repeat;
-  background-size: cover;
+  background: #ffffff;
   padding-top: 12%;
-  padding-bottom: 80px;
   overflow: hidden;
 }
 
-header a {
-  color: #fff;
+.header-caption h1 {
+  font-size: 37pt;
+  color: #0D293B;
+  margin-bottom: 0;
 }
 
-header a:hover {
-  color: #fff;
+.header-caption .sub-head {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1D58BF;
 }
 
 section {
@@ -197,8 +214,7 @@ footer hr {
 }
 
 .softwareHeader {
-  background: #1D58BF url("../img/software-bg.png") center center no-repeat;
-  background-size: cover;
+  background: #ffffff;
   padding-top: 12%;
   padding-bottom: 80px;
 }
