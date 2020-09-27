@@ -88,6 +88,10 @@ h1,h2,h3,h4,h5,h6{
   box-shadow: none;
 }
 
+.pt-180{
+  padding-top: 180px;
+}
+
 .pt-140{
   padding-top: 140px;
 }
@@ -263,4 +267,16 @@ footer hr {
 {
   font-size: 18px;
   color: #5b6987;
+}
+.seeOurPosition{
+  position: relative;
+}
+.seeOurPosition .card{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  width: 500px;
+  z-index: 1024;
+  transform: scale(1.01);
+  box-shadow: rgba(3, 27, 78, 0.1) 0px 10px 20px !important;
 }
