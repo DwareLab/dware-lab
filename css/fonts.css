@@ -22,6 +22,8 @@
     font-weight: 600;
     src: url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.eot");
     src: url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.woff") format("woff"),
     url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/ac9525e5f200f57332b3080d0db9d8f6.svg#Sailec-Medium") format("svg"); }
 @font-face {
