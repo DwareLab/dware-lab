@@ -1,7 +1,7 @@
 class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-      <footer class="bg-matte-black">
+      <footer class="bg-dark-blue">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-2">

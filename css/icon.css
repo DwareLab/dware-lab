@@ -27,12 +27,12 @@
 
 .icon-web .path1:before {
     content: "\e908";
-    color: #fd5444;
+    color: rgb(0, 96, 255);
 }
 .icon-web .path2:before {
     content: "\e909";
     margin-left: -1em;
-    color: #fd5444;
+    color: rgb(0, 96, 255);
 }
 .icon-web .path3:before {
     content: "\e90a";
@@ -67,31 +67,31 @@
 .icon-web .path9:before {
     content: "\e910";
     margin-left: -1em;
-    color: #fd5444;
+    color: rgb(0, 96, 255);
 }
 .icon-web .path10:before {
     content: "\e911";
     margin-left: -1em;
-    color: #fd5444;
+    color: rgb(0, 96, 255);
 }
 .icon-web .path11:before {
     content: "\e912";
     margin-left: -1em;
-    color: #fd5444;
+    color: rgb(0, 96, 255);
 }
 .icon-web .path12:before {
     content: "\e913";
     margin-left: -1em;
-    color: #fd5444;
+    color: rgb(0, 96, 255);
 }
 .icon-backend .path1:before {
     content: "\e900";
-    color: #fd5444;
+    color: rgb(0, 96, 255);
 }
 .icon-backend .path2:before {
     content: "\e901";
     margin-left: -1em;
-    color: #fd5444;
+    color: rgb(0, 96, 255);
 }
 .icon-backend .path3:before {
     content: "\e902";
@@ -110,15 +110,15 @@
 }
 .icon-graphic:before {
     content: "\e905";
-    color: #fd5444;
+    color: #0060ff;
 }
 .icon-software:before {
     content: "\e906";
-    color: #fd5444;
+    color: #0060ff;
 }
 .icon-visual:before {
     content: "\e907";
-    color: #fd5444;
+    color: #0060ff;
 }
 
 .icon{
