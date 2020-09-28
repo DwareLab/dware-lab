@@ -35,7 +35,7 @@ class Footer extends HTMLElement {
             <div class="col-lg-2">
                 <h6 class="text-white mb-3">Support</h6>
                 <nav class="nav flex-column">
-                    <a class="nav-link active" href="#">Contact</a>
+                    <a class="nav-link active" href="contact.html">Contact</a>
                     <a class="nav-link" href="#">Sales</a>
                     <a class="nav-link" href="terms-and-conditions.html">Terms & Conditions</a>
                     <a class="nav-link" href="privacy-policy.html">Privacy Policy</a>

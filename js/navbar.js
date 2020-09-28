@@ -91,7 +91,7 @@ class Navbar extends HTMLElement {
                         <a class="nav-link" href="#">Customers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
