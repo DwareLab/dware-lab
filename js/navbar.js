@@ -47,7 +47,7 @@ class Navbar extends HTMLElement {
                                     <span class="item-title">Graphics</span>
                                 </div>
                             </a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="html-templates.html">
                                 <span class="icon icon-web"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span></span>
                                 <div class="mb-0">
                                     <span class="item-title">Html Templates</span>
@@ -101,9 +101,9 @@ class Navbar extends HTMLElement {
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary text-white" href="#">
+                        <button class="nav-link btn btn-primary text-white" data-toggle="modal" data-target="#formModal">
                             Sign-Up
-                        </a>
+                        </button>
                     </li>
                 </ul>
             </div>

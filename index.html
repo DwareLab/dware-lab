@@ -19,6 +19,7 @@
     <script src="js/navbar.js"></script>
     <script src="js/notification.js"></script>
     <script src="js/getStarted.js"></script>
+    <script src="js/lead-modal.js"></script>
     <script src="js/footer.js"></script>
 
 </head>
@@ -44,7 +45,7 @@
                     <div class="header-caption text-center">
                         <h1>Welcome to Dware Lab</h1>
                         <p class="sub-head">Dream. Design. Develop. Deploy. Dominate.</p>
-                        <a href="#" class="btn btn-header mt-4">start for only $34/month</a>
+                        <button class="btn btn-header mt-4" data-toggle="modal" data-target="#formModal">start for only $34/month</button>
                     </div>
                 </div>
                 <div class="col-lg-3 d-none d-lg-block">
@@ -86,9 +87,9 @@
                                 <div class="col-lg-6">
                                     <div class="card">
                                         <img src="./img/web.svg" width="80" alt="Web Development">
-                                        <h5>Web Development</h5>
+                                        <h5>Html Templates</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dignissimos ducimus eligendi exercitationem in ipsum iusto nesciunt odio quia reiciendis tenetur vel veritatis.</p>
-                                        <a href="#" class="btn btn-outline-primary py-3">Learn more...</a>
+                                        <a href="html-templates.html" class="btn btn-outline-primary py-3">Learn more...</a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -290,7 +291,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="builtFor">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -360,6 +361,8 @@
 
     <main-footer></main-footer>
 
+    <main-modal></main-modal>
+
     <div class="alert alert-dismissible text-center cookiealert" role="alert">
         <div class="cookiealert-container">
             <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="privacy-policy.html" target="_blank">Learn more</a>
@@ -368,6 +371,9 @@
         </button>
         </div>
     </div>
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

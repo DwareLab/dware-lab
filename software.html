@@ -20,6 +20,7 @@
     <script src="js/navbar.js"></script>
     <script src="js/notification.js"></script>
     <script src="js/getStarted.js"></script>
+    <script src="js/lead-modal.js"></script>
     <script src="js/footer.js"></script>
 
 </head>
@@ -39,7 +40,7 @@
                     <div class="header-caption text-center">
                         <h1 class="font-weight-bold"><span class="text-primary">Software</span> Showcase</h1>
                         <p class="sub-head">Dream. Design. Develop. Deploy. Dominate.</p>
-                        <a href="#" class="btn btn-header mt-4">start for only $34/month</a>
+                        <button class="btn btn-header mt-4" data-toggle="modal" data-target="#formModal">start for only $34/month</button>
                     </div>
                 </div>
                 <div class="col-lg-3 text-center d-none d-lg-block">
@@ -190,6 +191,8 @@
     <main-get></main-get>
 
     <main-footer></main-footer>
+
+    <main-modal></main-modal>
 
     <div class="alert alert-dismissible text-center cookiealert" role="alert">
         <div class="cookiealert-container">

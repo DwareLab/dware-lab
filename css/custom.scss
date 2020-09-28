@@ -284,3 +284,28 @@ footer hr {
   transform: scale(1.01);
   box-shadow: rgba(3, 27, 78, 0.1) 0px 10px 20px !important;
 }
+
+.modal-backdrop.show {
+  opacity: .85;
+}
+
+#builtFor{
+  text-align: center;
+}
+.html-templates .card{
+  position: relative;
+}
+.html-templates .overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+}
+.html-templates .card:hover .overlay{
+  display: flex;
+}

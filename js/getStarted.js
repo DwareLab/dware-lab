@@ -8,9 +8,9 @@ class Section extends HTMLElement {
                         <h3 class="mb-0 text-white">Get Started Now</h3>
                     </div>
                     <div class="col-lg-3">
-                        <a href="#" class="btn btn-white w-100 py-3">
+                        <button class="btn btn-white w-100 py-3" data-toggle="modal" data-target="#formModal">
                             Create Account
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
