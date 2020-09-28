@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
                 <h6 class="text-white mb-3">Company</h6>
                 <nav class="nav flex-column">
                     <a class="nav-link active" href="about.html">About</a>
-                    <a class="nav-link" href="team.html">Team</a>
+<!--                    <a class="nav-link" href="team.html">Team</a>-->
                     <a class="nav-link" href="#">Blog</a>
                     <a class="nav-link" href="#">Careers</a>
                     <a class="nav-link" href="#">Referal Program</a>

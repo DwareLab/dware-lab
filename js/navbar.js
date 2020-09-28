@@ -62,14 +62,14 @@ class Navbar extends HTMLElement {
                         </a>
                         <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
                             <p class="menu-sub-title">Category:</p>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="careers.html">
                                 <span class="icon icon-visual"></span>
                                 <div class="mb-0">
                                     <span class="item-title">Visual</span>
                                     <span class="small d-block item-desc">Scalable Virtual Machines</span>
                                 </div>
                             </a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="careers.html">
                                 <span class="icon icon-backend"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></span>
                                 <div class="mb-0">
                                     <span class="item-title">Back End</span>
@@ -84,9 +84,9 @@ class Navbar extends HTMLElement {
                     <li class="nav-item">
                         <a class="nav-link" href="learn.html">Learn</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="team.html">Team</a>
-                    </li>
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="team.html">Team</a>-->
+<!--                    </li>-->
 <!--                    <li class="nav-item">-->
 <!--                        <a class="nav-link" href="#">Customers</a>-->
 <!--                    </li>-->
