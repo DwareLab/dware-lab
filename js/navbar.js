@@ -41,7 +41,7 @@ class Navbar extends HTMLElement {
                                     <span class="item-title">Softwares</span>
                                 </div>
                             </a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="graphics.html">
                                 <span class="icon icon-graphic"></span>
                                 <div class="mb-0">
                                     <span class="item-title">Graphics</span>

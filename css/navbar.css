@@ -107,3 +107,9 @@
     color: hsl(221,19%,44%) !important;
 }
 
+.btn-white{
+    background: #fff;
+    color: #1D58BF;
+    font-weight: 600;
+}
+
