@@ -58,11 +58,11 @@ class Navbar extends HTMLElement {
                             <div class="row">
                                 <div class="col-lg-2">
                             <p class="menu-sub-title">Mobile:</p>
-                            <a class="dropdown-item" href="ios-career.html">
+                            <a class="dropdown-item" href="ios.html">
                                 <i class="fab fa-apple text-primary"></i>
                                 <span class="item-title">iOS</span>
                             </a>
-                            <a class="dropdown-item" href="android-career.html">
+                            <a class="dropdown-item" href="android.html">
                                 <i class="fab fa-android text-primary"></i>
                                 <span class="item-title">Android</span>
                             </a>
