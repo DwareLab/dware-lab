@@ -109,6 +109,10 @@ class Navbar extends HTMLElement {
 
                                         <span class="item-title">Bootstrap</span>
                                     </a>
+                                    <a class="dropdown-item" href="chrome-ext.html">
+                                        <i class="fab fa-chrome text-primary"></i>
+                                        <span class="item-title">Chrome Extensions</span>
+                                    </a>
                                 </div>
                                 <div class="col-lg-2">
                                     <p class="menu-sub-title">Back End:</p>
