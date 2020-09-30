@@ -249,11 +249,11 @@ footer hr {
   margin-bottom: 0px !important;
   box-shadow: rgba(3, 27, 78, 0.06) 0px 2px 4px !important;
   overflow: hidden;
+  min-height: 100%;
 }
 
 .card:hover {
   box-shadow: rgba(3, 27, 78, 0.1) 0px 10px 20px !important;
-  background-color: white !important;
 }
 
 .card.hover-card:hover {
