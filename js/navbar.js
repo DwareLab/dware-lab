@@ -66,22 +66,22 @@ class Navbar extends HTMLElement {
                                 <i class="fab fa-android text-primary"></i>
                                 <span class="item-title">Android</span>
                             </a>
-                            <a class="dropdown-item" href="react-career.html">
+                            <a class="dropdown-item" href="react-native.html">
                                 <i class="fab fa-react text-primary"></i>
                                 <span class="item-title">React Native</span>
                             </a>
-                            <a class="dropdown-item" href="flutter-career.html">
+                            <a class="dropdown-item" href="flutter.html">
                                 <svg role="img" fill="#1D58BF" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title/><path d="M14.314 0L2.3 12 6 15.7 21.684.012h-7.357L14.314 0zm.014 11.072l-6.471 6.457 6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.371z"/></svg>
                                 <span class="item-title">Flutter</span>
                             </a>
-                            <a class="dropdown-item" href="ionic-career.html">
+                            <a class="dropdown-item" href="ionic.html">
                             <svg id="Layer_1" style="enable-background:new 0 0 426 426;" version="1.1" viewBox="0 0 426 426" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
 \t.st0{fill:#1D58BF;}
 \t.st1{fill:#FFFFFF;}
 </style><path class="st0" d="M412.5,214.3c-9.2,58.5-27.1,75.6-58.8,114.9c-31.7,33.3-77.3,88.9-141.9,85.8c-58.5-9.2-75.6-27.1-114.9-58.8  C63.6,324.5,8,278.9,11.1,214.3c9.2-58.5,27.1-75.6,58.8-114.9c31.7-33.3,77.3-88.9,141.9-85.8c58.5,9.2,75.6,27.1,114.9,58.8  C360,104.1,415.6,149.7,412.5,214.3z"/><g><circle class="st1" cx="213" cy="218.6" r="43.6"/><path class="st1" d="M298.2,154.4c2.3-2.6,3.7-6,3.7-9.8c0-8.3-6.7-15-15-15c-3.8,0-7.2,1.4-9.8,3.7   c-17.9-13.5-40.1-21.5-64.1-21.5c-58.8,0-106.7,47.9-106.7,106.7c0,58.8,47.9,106.7,106.7,106.7s106.7-47.9,106.7-106.7   C319.7,194.5,311.7,172.3,298.2,154.4z M213,321.7c-56.9,0-103.1-46.3-103.1-103.1c0-56.9,46.3-103.1,103.1-103.1   c23.1,0,44.5,7.6,61.7,20.5c-1.7,2.4-2.8,5.4-2.8,8.6c0,8.3,6.7,15,15,15c3.2,0,6.2-1,8.6-2.8c12.9,17.2,20.5,38.6,20.5,61.7   C316.1,275.4,269.9,321.7,213,321.7z"/></g></svg>
                                 <span class="item-title">ionic</span>
                             </a>
-                            <a class="dropdown-item" href="ionic-career.html">
+                            <a class="dropdown-item" href="xamarin.html">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1"><g id="surface1"><path d="M32.875 5h-17.75a3.303 3.303 0 0 0-2.816 1.648L3.422 22.34a3.477 3.477 0 0 0 0 3.32l8.887 15.692c.562 1 1.68 1.648 2.816 1.648h17.75a3.303 3.303 0 0 0 2.816-1.648l8.887-15.692a3.477 3.477 0 0 0 0-3.32L35.691 6.648A3.303 3.303 0 0 0 32.875 5z" fill="#1D58BF"/><path d="M32.613 34h-3.05a.407.407 0 0 1-.352-.219L24.047 24.2c-.027-.05-.035-.11-.047-.16-.012.05-.02.11-.047.16l-5.18 9.582a.396.396 0 0 1-.335.219h-3.051c-.274 0-.485-.367-.34-.621L20.094 24l-5.047-9.398c-.125-.227.027-.551.265-.602h3.126c.132 0 .265.09.335.207l5.18 9.586c.027.05.035.098.047.156.012-.058.02-.105.047-.156l5.164-9.586a.406.406 0 0 1 .352-.207h3.05c.266 0 .465.355.34.602L27.906 24l5.047 9.379c.145.254-.066.621-.34.621z" fill="#FFF"/></g><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description about="https://iconscout.com/legal#licenses" dc:title="xamarin" dc:description="xamarin" dc:publisher="Iconscout" dc:date="2017-12-15" dc:format="image/svg+xml" dc:language="en"><dc:creator><rdf:Bag><rdf:li>Icons8</rdf:li></rdf:Bag></dc:creator></rdf:Description></rdf:RDF></metadata></svg>
                                 <span class="item-title">Xamarin</span>
                             </a>
@@ -101,12 +101,7 @@ class Navbar extends HTMLElement {
                                         <span class="item-title">Angular</span>
                                     </a>
                                     <a class="dropdown-item" href="angular.html">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612" focusable="false" role="img">
-  <title>Bootstrap</title>
-  <path fill="#1D58BF" d="M612 510c0 56.1-45.9 102-102 102H102C45.9 612 0 566.1 0 510V102C0 45.9 45.9 0 102 0h408c56.1 0 102 45.9 102 102v408z"/>
-  <path fill="#FFF" d="M166.3 133h173.5c32 0 57.7 7.3 77 22s29 36.8 29 66.5c0 18-4.4 33.4-13.2 46.2-8.8 12.8-21.4 22.8-37.8 29.8v1c22 4.7 38.7 15.1 50 31.2 11.3 16.2 17 36.4 17 60.8 0 14-2.5 27.1-7.5 39.2-5 12.2-12.8 22.7-23.5 31.5s-24.3 15.8-41 21-36.5 7.8-59.5 7.8h-164V133zm62.5 149.5h102c15 0 27.5-4.2 37.5-12.8s15-20.8 15-36.8c0-18-4.5-30.7-13.5-38s-22-11-39-11h-102v98.6zm0 156.5h110.5c19 0 33.8-4.9 44.2-14.8 10.5-9.8 15.8-23.8 15.8-41.8 0-17.7-5.2-31.2-15.8-40.8s-25.2-14.2-44.2-14.2H228.8V439z"/>
-</svg>
-
+                                        <i class="fab fa-bootstrap text-primary"></i>
                                         <span class="item-title">Bootstrap</span>
                                     </a>
                                     <a class="dropdown-item" href="chrome-ext.html">
